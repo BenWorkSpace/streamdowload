@@ -63,4 +63,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [FastAPI](https://fastapi.tiangolo.com/) - The web framework used.
 - [requests](https://docs.python-requests.org/en/latest/) - HTTP library for making requests.
 - [user_agent](https://pypi.org/project/user-agent/) - Library for generating user-agent strings.
-```
