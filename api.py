@@ -15,6 +15,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+async def index():
+    return {}
+
 @app.get("/download/")
 async def proxy_request(url: str = Query(...), host: str = Query("deva-cpmav9sk6x5.cimanowtv.com")):
     headers = {
