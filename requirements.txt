@@ -1,0 +1,3 @@
+fastapi[all]
+requests
+user_agent
